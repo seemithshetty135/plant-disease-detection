@@ -34,3 +34,10 @@ dataset/
 
 ```bash
 pip install -r requirements.txt
+▶️ Run the Project
+Train Model
+python train.py
+Predict
+python app.py image.jpg
+Run Web App
+streamlit run streamlit_app.py
