@@ -1,19 +1,36 @@
 
 # 🌿 Plant Disease Detection using ResNet50
 
-This project uses a pretrained ResNet50 model with transfer learning.
+## 📌 Overview
+This project uses Deep Learning to detect plant diseases from leaf images.  
+It leverages a pretrained ResNet50 model with transfer learning to achieve high accuracy.
 
-## Dataset
+---
+
+## 🚀 Features
+- Image-based plant disease detection
+- Transfer Learning using ResNet50
+- Streamlit web app for real-time prediction
+- Easy-to-use interface
+
+---
+
+## 🧠 Tech Stack
+- Python
+- TensorFlow / Keras
+- OpenCV / PIL
+- Streamlit
+
+---
+
+## 📁 Dataset Structure
 dataset/
  ├── Healthy/
  └── Disease/
 
-## Train
+---
+
+## ⚙️ Installation
+
+```bash
 pip install -r requirements.txt
-python train.py
-
-## Run
-python app.py image.jpg
-
-## Web
-streamlit run streamlit_app.py
